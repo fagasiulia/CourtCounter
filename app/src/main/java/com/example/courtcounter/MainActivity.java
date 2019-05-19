@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreePointsTeamB(View v){
         teamBScore += 3;
-        displayForTeamA(teamBScore);
+        displayForTeamB(teamBScore);
     }
 
     /**
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoPointsTeamB(View v){
         teamBScore +=2;
-        displayForTeamA(teamBScore);
+        displayForTeamB(teamBScore);
     }
 
     /**
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void freeThrowTeamB(View v){
         teamBScore +=1;
-        displayForTeamA(teamBScore);
+        displayForTeamB(teamBScore);
     }
 
     /**
